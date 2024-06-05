@@ -259,6 +259,15 @@
 .copy {
     display: none;
 }
+
+.img-border {
+    border: 1px solid #0000001A;
+    background-color: #FAFAFA;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
 @media (max-width:576px) {
     .w-35 {
         width: 35px;
@@ -340,6 +349,9 @@
 }
 
 @media (min-width:992px) {
+    .w-60 {
+        width: 60%;
+    }
     .gap-20-lg {
         gap: 20px;
     }
